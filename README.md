@@ -89,3 +89,13 @@ This will generate the production-ready files in the dist folder
    ├── index.html            # HTML template
    └── package.json          # Project configuration and dependencies
    ```
+
+## 🌗 Theme Persistence
+
+The app supports light and dark themes, and users can toggle between them using the theme switcher. The theme preference is stored in **localStorage**, so when users return to the app, their last chosen theme is automatically applied.
+
+### How it works:
+
+- On initial load, the app checks **localStorage** for the user's theme preference.
+- If no preference is found, it defaults to the system's preferred theme (light/dark).
+- The selected theme is saved to **localStorage** and persists across sessions.
