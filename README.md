@@ -99,3 +99,55 @@ The app supports light and dark themes, and users can toggle between them using 
 - On initial load, the app checks **localStorage** for the user's theme preference.
 - If no preference is found, it defaults to the system's preferred theme (light/dark).
 - The selected theme is saved to **localStorage** and persists across sessions.
+
+## 🔍 API Usage
+
+This app uses the RestCountries API to fetch detailed information about countries.
+
+### Example API Response:
+
+   ```json
+   {
+    "name": {
+        "common": "Italy",
+        "official": "Italian Republic"
+    },
+    "capital": ["Rome"],
+    "region": "Europe",
+    "population": 59554023,
+    "flags": {
+        "svg": "https://flagcdn.com/it.svg"
+    },
+    "latlng": [41.87, 12.57],
+    "currencies": {
+        "EUR": {
+            "name": "Euro",
+            "symbol": "€"
+        }
+    },
+    "languages": {
+        "ita": "Italian"
+    },
+    "subregion": "Southern Europe",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/ZiQpGgUPm8FoHhdL6"
+        }
+    }
+   ```
+
+## 🗺️ Country Map with Leaflet
+
+This project is open-source and available under the MIT License.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to contribute, feel free to create an issue or open a pull request. Be sure to follow the contribution guidelines (if any) for submitting changes.
+
+## 📧 Contact
+
+Feel free to reach out to me via:
+
+- GitHub: flaviusGS
+- Email: flaviusstasac@gmail.com
+
+
