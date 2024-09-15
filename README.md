@@ -39,21 +39,53 @@ Ensure you have the following installed on your machine:
 
    ```bash
    git clone https://github.com/flaviusGS/Countries-App.git
-   cd Countries-App
+   cd countries-app
    ```
 
 2. **Install dependencies**:
 
-```bash
-    npm install
-    # or
-  yarn install
-```
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+  
 
 3. **Run the development server**:
 
-```bash
-  npm run dev
-  # or
-  yarn dev
-```
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser and navigate to http://localhost:5173.**
+
+### Build for Production
+
+To create an optimized build for production, run:
+
+   ```bash
+   npm run build
+   # or
+   yarn build
+   ```
+
+This will generate the production-ready files in the dist folder
+
+## 🔧 Project Structure
+
+   ```bash
+   ├── public/
+   ├── src/
+   │   ├── api/              # API endpoints and services
+   │   ├── components/       # Reusable components (Navbar, Footer, CountryCard, etc.)
+   │   ├── hooks/            # Custom React hooks (e.g., useGetCountries)
+   │   ├── pages/            # Different pages (Home, CountryDetails)
+   │   ├── App.tsx           # Main app component
+   │   ├── main.tsx          # React entry point
+   │   └── styles/           # Custom styles if any
+   ├── README.md             # This file
+   ├── index.html            # HTML template
+   └── package.json          # Project configuration and dependencies
+   ```
